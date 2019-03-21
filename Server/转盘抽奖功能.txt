@@ -1,0 +1,7 @@
+局数更新
+1.OnUpdateAllUserResult 函数中判断当前玩家所在的金币场类型
+2.SP_UserInfoUpdateAll 通过金币类型从 TUserInfo 表中获取玩家在当前类型中所玩的局数 并重新计算
+
+抽奖
+1.SP_GetLuckDrawInfo 获取奖品配置
+2.SP_DoLuckDrawInfo 开始抽奖
